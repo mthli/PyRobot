@@ -1,0 +1,10 @@
+使用说明：
+    1. 首先你要安装一些第三方库，比如Dropbox的API库等等，使用pip安装：
+        pip install dropbox
+        pip install requests
+        pip install feedparser
+    2. 你需要申请一个Dropbox的API，并把它填入Init.py中的相应位置，接着运行Init.py
+    3. 运行CaoLiu.py，每日一次，即可将最新磁链同步到你的Dropbox，当然我认为直接订阅草榴社区的RSS显然是更好的选择 :)
+       可以选择使用crontab命令让其自动运行
+       另外CaoLiu.py中有些异常并为进行处理，有时候遇到一些奇怪（相对一般页面）的界面会解析报错，自己修改一下，try...except...一下就可以了，我暂时没有修改的打算
+    4. 当然，从源码中你可以看出，这是使用Python 3编写的，不支持Python 2
