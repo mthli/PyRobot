@@ -1,0 +1,11 @@
+使用说明：
+    1. 首先安装第三方的TwitterAPI库：
+        pip install TwitterAPI
+    2. 申请一个Twitter的API，获取OAuth
+    3. 把你申请到的OAuth以及你的人人账号和密码填写到Tweets2RR.py中的相应位置
+    4. 运行Tweets2RR.py即可，当然你可以设为自动化运行，使用crontab命令
+    5. 显然这是使用Python 3编写的，不支持Python 2
+
+参考：
+    https://github.com/jsl9208/renrenStatus
+
